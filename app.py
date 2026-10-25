@@ -1,5 +1,5 @@
 """
-🌦️ Windy BMKG — Indonesia Climate Explorer (2010–2027)
+Windy BMKG — Indonesia Climate Explorer (2010–2027)
 Visualisasi Interaktif Data Iklim BMKG dengan Antarmuka & Layout Windy.com
 + Fitur Prediksi Iklim Lintas Waktu (Sebelum 2026, 2026 Real-Time, & Setelah 2026)
 Dibuat untuk Tugas UAS Analisis Big Data (ABD)
@@ -21,8 +21,7 @@ import joblib
 # PAGE CONFIG
 # ══════════════════════════════════════════════════════════════
 st.set_page_config(
-    page_title="Windy: Peta Angin & Iklim BMKG Indonesia",
-    page_icon="🌦️",
+    page_title="Iklim BMKG Indonesia",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
